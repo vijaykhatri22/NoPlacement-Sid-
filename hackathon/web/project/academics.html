@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login | GIT</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <!-- Sign up form -->
+        
+
+        <!-- Sing in  Form -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                       
+                    </div>
+
+                    <div class="signin-form">
+                        <h2 class="form-title"> hi {name} !</h2>
+                        <form method="POST" class="register-form" id="login-form">
+                            
+                            <div class="form-group">
+                                    <label for="your_10_percentage"><i class="zmdi zmdi-edit"></i></label>
+                                    <input type="number" name="your_10" id="your_10" placeholder="10 %"/>
+                             </div>
+                            <div class="form-group">
+                                        <label for="your_12_percentage"><i class="zmdi zmdi-edit"></i></label>
+                                        <input type="number" name="your_12" id="your_12" placeholder="12 %"/>
+                            </div> 
+                            <div class="form-group">
+                                    <label for="your_Btech_percentage"><i class="zmdi zmdi-edit"></i></label>
+                                    <input type="number" name="your_Btech_percentage" id="your_Btech" placeholder="BTech %"/>
+                            </div>   
+                            <div class="form-group">
+                                    <label for="your_year"><i class="zmdi zmdi-calendar"></i></label>
+                                    <input type="number" name="your_Passout_year" id="your_year" placeholder="Passout Year"/>
+                            </div>
+                            <div class="form-group">
+                                    <label for="your_backs"><i class="zmdi zmdi-repeat"></i></label>
+                                    <input type="number" name="your_backs" id="your_backs" placeholder="Number of Backlogs"/>
+                            </div>
+
+                            <div class="form-group" >
+                                <label for="your_gender"><i class="zmdi zmdi-person"></i></label>
+                                <input type="radio" value="m" /> Male 
+                                <input type="radio" value="F" /> Female 
+                                <input type="radio" value="O" /> Other 
+
+                            </div>
+
+                            
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Next"/>
+                            </div>
+                        </form>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
